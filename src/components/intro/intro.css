@@ -19,20 +19,22 @@
     position: relative;
 }
 .i-bg{
-    clip-path: ellipse(97% 97% at 97% 97%);
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 50% 100%, 0 50%, 50% 0);
     width: 100%;
     height: 100%;
-    background-color:#08D9D6;
+    background: linear-gradient(#ffffff,#EAEAEA,#252A34,#EAEAEA,#ffffff);
     position: absolute;
     top: 0;
     right: 0;
 
 }
 .i-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 60%;
+    height: 60%;
     position: absolute;
+    border-radius: 50%;
+    background:linear-gradient(#252A34,#08D9D6);
+    margin: 20%;
 }
 .i-left-wrapper{
     padding: 50px;
